@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #3b5998;
+    height: 83px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+    box-sizing: border-box;
+}
+
+header h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-right: 100px;
+}
+
+header .firstForm{
+    display: flex;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+header .firstForm .email{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-right: 10px;
+    margin-bottom: calc(0.8rem + 2px);
+}
+
+header .firstForm .email input{
+    border: 1px solid #1d2a5b;
+    margin: 0;
+    width: 142px;
+    margin: 5px 0px;
+    padding: 3px 5px;
+    outline: none;
+}
+
+header .firstForm .password{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+header .firstForm .password input{
+    border: 1px solid #1d2a5b;
+    margin: 0;
+    width: 142px;
+    margin: 5px 0px;
+    padding: 3px 5px;
+    outline: none;
+}
+
+header .firstForm .password a{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+header .firstForm .password a:hover{
+    text-decoration: underline;
+}
+
+header .firstForm .login{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 3px 5px;
+    outline: 0;
+}
+
+header .firstForm .login:hover{
+    background-color: #3b5998;
+    cursor: pointer;
+}
+
+header .firstForm .login:active{
+    background-color: #2e4b88;
+}
+
+section{
+    background: rgb(207,218,233);
+    background: linear-gradient(0deg, rgba(207,218,233,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 15%;
+    box-sizing: border-box;
+}
+
+section .connect{
+    width: 140%;
+    font-size: 1.1rem;
+    color: #0e385f;
+    margin-right: 80px;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+
+section .connect img{
+    width: 110%;
+    margin-top: 10px;
+}
+
+section .create h1{
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: -1rem;
+    font-weight: 600;
+}
+
+section .create label{
+    color: #1d2129 ;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-size: 300;
+}
+
+section .create .field{
+    font-size: 1.2rem;
+    padding: 8px 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    outline: 0;
+}
+
+section .create .firstname, section .create .secondname{
+    margin-top: 25px;
+    width: 172px;
+}
+
+section .create .firstname{
+    margin-right: 5px;
+}
+
+section .create .email, section .create .password{
+    width: 377px;
+    margin-top: 10px;
+}
+
+section .create .password{
+    margin-bottom: 15px;
+}
+
+section .create .bday{
+    display: flex;
+    align-items: center;
+}
+
+section .create .bday select{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    height: 30px;
+    padding: 5px;
+    border-radius: none;
+    border: 1px solid #bdc7d8;
+    outline: none;
+}
+
+section .create .bday .why{
+    color: #365899;
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-left: 10px;
+    display: block;
+    height: 30px;
+    width: 150px;
+    text-decoration: none;
+}
+
+section .create .bday .why:hover{
+    text-decoration: underline;
+}
+
+section .create .gender{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+section .create .declaration{
+    margin-top: 15px;
+    color: #777;
+    font-size: 0.7rem;
+    width: 80%;
+}
+
+section .create .declaration a{
+    color: #365899;
+    text-decoration: none;
+}
+
+section .create .declaration a:hover{
+    text-decoration: underline;
+}
+
+section .create .submit{
+    font-size: 1.2rem;
+    font-weight: 900;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 7px 20px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border-color: #3b6e22;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+section .create .submit:hover{
+    background: linear-gradient(#67ae55, #73b15b);
+}
